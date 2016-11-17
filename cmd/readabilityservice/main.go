@@ -11,14 +11,14 @@ import (
 	"github.com/the42/readability"
 )
 
-type ReadabiltySimpleRequest struct {
+type ReadabiltyRequest struct {
 	CheckString     *string `description:"Input String whose readability should be checked"`
 	CorrelationID   *string `description:"request provided CorrelationID copied to response for requests/response matchmaking"`
 	ReadabilityType *string `description:"Algorithm to use for readability check"`
 }
-type ReadabilitySimpleResponse struct {
-	ReadabiltySimpleRequest `description:"Copied over from Request without CheckString"`
-	Response                struct {
+type ReadabilityResponse struct {
+	ReadabiltyRequest `description:"Copied to response from Request without CheckString"`
+	Response          struct {
 		Readability float32 `description:"Readability score result"`
 		Message     *string `description:"diagnostic message returned by readability ccheck"`
 		StatusCode  int     `description:"0:success, -1: no success, check Message"`
@@ -38,7 +38,7 @@ type readabilityservice struct {
 
 func (s *readabilityservice) readabilityservice(request *restful.Request, response *restful.Response) {
 
-	readabilityrequest := ReadabiltySimpleRequest{}
+	readabilityrequest := ReadabiltyRequest{}
 	if err := request.ReadEntity(&readabilityrequest); err != nil {
 		logresponse(response, http.StatusBadRequest, fmt.Sprintf("unable to parse request: %s", err.Error()))
 		return
@@ -56,9 +56,9 @@ func (s *readabilityservice) readabilityservice(request *restful.Request, respon
 		readability_type = readability.WSTF1
 	}
 
-	result := ReadabilitySimpleResponse{ReadabiltySimpleRequest: readabilityrequest}
+	result := ReadabilityResponse{ReadabiltyRequest: readabilityrequest}
 	// set the input string to nil for performance reasons. May correlate result to request by using CorrelationID
-	result.ReadabiltySimpleRequest.CheckString = nil
+	result.ReadabiltyRequest.CheckString = nil
 
 	switch readability_type {
 	case readability.WSTF1, readability.WSTF2, readability.WSTF3, readability.WSTF4:
@@ -113,8 +113,8 @@ func main() {
 		To(s.readabilityservice).
 		Produces(restful.MIME_JSON).
 		Consumes(restful.MIME_JSON).
-		Reads(ReadabiltySimpleRequest{}).
-		Returns(http.StatusOK, "", ReadabilitySimpleResponse{}).
+		Reads(ReadabiltyRequest{}).
+		Returns(http.StatusOK, "", ReadabilityResponse{}).
 		Returns(http.StatusInternalServerError, "", nil).
 		Returns(http.StatusBadRequest, "", nil))
 	restful.Add(ws)
