@@ -3,3 +3,4 @@ links.txt
 *.swo
 /sources
 /cmd/rcmd
+Session.vim
