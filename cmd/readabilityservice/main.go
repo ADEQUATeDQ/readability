@@ -86,8 +86,8 @@ func main() {
 		Produces(restful.MIME_JSON).
 		Consumes(restful.MIME_JSON)
 
-	//BEGIN: CORS support
-	/*
+		//BEGIN: CORS support
+	if enable_cors := os.Getenv("ENABLE_CORS"); enable_cors != "" {
 		cors := restful.CrossOriginResourceSharing{
 			ExposeHeaders:  []string{"X-My-Header"},
 			AllowedHeaders: []string{"Content-Type", "Accept"},
@@ -98,7 +98,7 @@ func main() {
 		restful.DefaultContainer.Filter(cors.Filter)
 		// Add container filter to respond to OPTIONS
 		restful.DefaultContainer.Filter(restful.DefaultContainer.OPTIONSFilter)
-	*/
+	}
 	//END: CORS support
 
 	s := &readabilityservice{}
