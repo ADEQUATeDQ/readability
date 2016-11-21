@@ -86,7 +86,7 @@ func main() {
 		Produces(restful.MIME_JSON).
 		Consumes(restful.MIME_JSON)
 
-		//BEGIN: CORS support
+	//BEGIN: CORS support
 	if enable_cors := os.Getenv("ENABLE_CORS"); enable_cors != "" {
 		cors := restful.CrossOriginResourceSharing{
 			ExposeHeaders:  []string{"X-My-Header"},
@@ -113,10 +113,11 @@ func main() {
 		To(s.readabilityservice).
 		Produces(restful.MIME_JSON).
 		Consumes(restful.MIME_JSON).
+		Doc("readability method endpoint").
 		Reads(ReadabiltyRequest{}).
-		Returns(http.StatusOK, "", ReadabilityResponse{}).
-		Returns(http.StatusInternalServerError, "", nil).
-		Returns(http.StatusBadRequest, "", nil))
+		Returns(http.StatusOK, "success", ReadabilityResponse{}).
+		Returns(http.StatusInternalServerError, "failure", nil).
+		Returns(http.StatusBadRequest, "failure", nil))
 	restful.Add(ws)
 
 	port := os.Getenv("PORT")
