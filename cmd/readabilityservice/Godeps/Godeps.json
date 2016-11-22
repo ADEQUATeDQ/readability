@@ -1,0 +1,39 @@
+{
+	"ImportPath": "github.com/the42/readability/cmd/readabilityservice",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/blevesearch/segment",
+			"Rev": "762005e7a34fd909a84586299f1dd457371d36ee"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful/log",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful/swagger",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/neurosnap/sentences",
+			"Comment": "v1.0.2-3-g5c0b76e",
+			"Rev": "5c0b76e675747263fdecbdfcdc65cff36a3252e7"
+		},
+		{
+			"ImportPath": "github.com/speedata/hyphenation",
+			"Rev": "89ad3da000a37f457c8af3eebd9d2d292e1681e1"
+		},
+		{
+			"ImportPath": "github.com/the42/readability",
+			"Rev": "a30dc275143057152059c95c803956d344bb2cf0"
+		}
+	]
+}
