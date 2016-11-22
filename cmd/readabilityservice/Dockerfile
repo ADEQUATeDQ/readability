@@ -1,7 +1,7 @@
 FROM golang:latest
 
 WORKDIR /go/src/app
-COPY ../../. .
+COPY . .
 
 RUN go install -v
 

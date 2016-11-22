@@ -1,0 +1,6 @@
+links.txt
+*.swp
+*.swo
+/sources
+/cmd/rcmd
+Session.vim

@@ -1,0 +1,4 @@
+[submodule "cmd/readabilityservice/swagger-ui"]
+	path = cmd/readabilityservice/swagger-ui
+	url = https://github.com/the42/swagger-ui.git
+	branch = readabilityservice
