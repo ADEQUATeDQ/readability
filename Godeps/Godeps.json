@@ -33,6 +33,10 @@
 		{
 			"ImportPath": "github.com/speedata/hyphenation",
 			"Rev": "89ad3da000a37f457c8af3eebd9d2d292e1681e1"
+		},
+		{
+			"ImportPath": "github.com/the42/adequate/portalwatch",
+			"Rev": "656ff29c212d27b4d366ac9040e2350f66297a0a"
 		}
 	]
 }
