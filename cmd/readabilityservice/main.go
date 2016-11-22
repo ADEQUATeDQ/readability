@@ -173,7 +173,7 @@ func logresponse(resp *restful.Response, code int, message string) {
 
 func main() {
 	pwd, _ := os.Getwd()
-	fmt.Println("Starting up in " + pwd)
+	log.Println("Starting up in " + pwd)
 
 	ws := new(restful.WebService).
 		Produces(restful.MIME_JSON).
