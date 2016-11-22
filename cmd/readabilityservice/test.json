@@ -1,0 +1,298 @@
+{
+  "CKANMDAustria": {
+      "author": null,
+      "author_email": null,
+      "creator_user_id": "aed89ed8-4f9c-499d-9d08-88e7c1eac613",
+      "extras": [
+        {
+          "key": "begin_datetime",
+          "value": "2012-12-13T00:00:00.000+01:00"
+        },
+        {
+          "key": "categorization",
+          "value": "[\"verkehr-und-technik\"]"
+        },
+        {
+          "key": "lineage_quality",
+          "value": "Daten werden auf Grundlage des Straßenkilometers eingetragen"
+        },
+        {
+          "key": "metadata_identifier",
+          "value": "409f345f-67ae-4b6e-92d3-a5b1a934b02b"
+        },
+        {
+          "key": "metadata_modified",
+          "value": "2016-03-04+01:00"
+        },
+        {
+          "key": "metadata_origin_portal",
+          "value": "http://data.ooe.gv.at/api/ogd/rest/upsir/dataset/409f345f-67ae-4b6e-92d3-a5b1a934b02b"
+        },
+        {
+          "key": "publisher",
+          "value": "Land Oberösterreich"
+        },
+        {
+          "key": "schema_characterset",
+          "value": "utf8"
+        },
+        {
+          "key": "schema_language",
+          "value": "ger"
+        },
+        {
+          "key": "schema_name",
+          "value": "USPIR1.0"
+        },
+        {
+          "key": "update_frequency",
+          "value": "unknown"
+        },
+        {
+          "key": "harvest_object_id",
+          "value": "3d1858f9-d96c-424f-9301-36d2ef443151"
+        },
+        {
+          "key": "harvest_source_id",
+          "value": "ba276b54-e93d-43a6-a65e-39df45319926"
+        },
+        {
+          "key": "harvest_source_title",
+          "value": "UPSIR XML Import Oberösterreich"
+        }
+      ],
+      "groups": [],
+      "id": "409f345f-67ae-4b6e-92d3-a5b1a934b02b",
+      "isopen": true,
+      "license_id": "cc-by-at-30",
+      "license_title": "Creative Commons Namensnennung 3.0 Österreich",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/at/deed.de",
+      "maintainer": "Land Oberösterreich, Abteilung Brücken- und Tunnelbau",
+      "maintainer_email": null,
+      "metadata_created": "2016-03-07T07:47:44.634474",
+      "metadata_modified": "2016-07-10T23:04:41.017707",
+      "name": "verkehrslichtsignalanlagen-vlsa-auf-landesstrassen-innerhalb-magistrat-betreut-durch-magistrat",
+      "notes": "Verkehrslichtsignalanlagen (VLSA) auf dem Landesstraßennetz innerhalb des Gebietes eines Magistrats. VLSA werden vom Magistrat betreut.",
+      "num_resources": 1,
+      "num_tags": 1,
+      "organization": {
+        "approval_status": "approved",
+        "created": "2013-02-27T10:48:14.301817",
+        "description": "",
+        "id": "37d1c90e-5252-4ed8-8a6d-036cf2e89dd1",
+        "image_url": "http://www.data.gv.at/wp-content/uploads/logos-organisationen/land-oberoesterreich.png",
+        "is_organization": true,
+        "name": "land-oberoesterreich",
+        "revision_id": "43fa5e34-14d1-4d70-93f5-9ef1ea6fc12d",
+        "revision_timestamp": "2014-07-24T08:27:04.846501",
+        "state": "active",
+        "title": "Land Oberösterreich",
+        "type": "organization"
+      },
+      "owner_org": "37d1c90e-5252-4ed8-8a6d-036cf2e89dd1",
+      "private": false,
+      "relationships_as_object": [],
+      "relationships_as_subject": [],
+      "resources": [
+        {
+          "cache_last_updated": null,
+          "cache_url": null,
+          "created": "2016-07-11T01:04:41.039823",
+          "description": "",
+          "format": "ZIP",
+          "hash": "",
+          "id": "694866e8-7dd5-4734-838b-ceaf0f7b7939",
+          "last_modified": null,
+          "mimetype": null,
+          "mimetype_inner": null,
+          "name": "Signaltechnik_VLSA_Landstrvw_UWB",
+          "position": 0,
+          "resource_group_id": "383f1e23-2a6f-4623-90f9-f9cfd4a04f6c",
+          "resource_type": null,
+          "revision_id": "809d3d0b-071a-4a19-ba05-91aab9006c3b",
+          "revision_timestamp": "2016-07-10T23:04:41.016333",
+          "size": null,
+          "state": "active",
+          "tracking_summary": {
+            "recent": 0,
+            "total": 0
+          },
+          "url": "http://e-gov.ooe.gv.at/at.gv.ooe.dorisdaten/DORIS_V/SIGNALTECHNIK_VLSA_LANDSTRVW_UWB.zip",
+          "url_type": null,
+          "webstore_last_updated": null,
+          "webstore_url": null
+        }
+      ],
+      "revision_id": "cf5a97dc-3bbd-4e70-ab57-a5216c1c40d0",
+      "revision_timestamp": "2016-03-07T07:47:44.634474",
+      "state": "active",
+      "tags": [
+        {
+          "display_name": "Verkehrswesen",
+          "id": "9a9a51dd-f91d-4067-aeb8-00515f37c94a",
+          "name": "Verkehrswesen",
+          "revision_timestamp": "2016-03-07T07:47:44.634474",
+          "state": "active",
+          "vocabulary_id": null
+        }
+      ],
+      "title": "Verkehrslichtsignalanlagen (VLSA) auf Landesstraßen innerhalb Magistrat betreut durch Magistrat",
+      "tracking_summary": {
+        "recent": 0,
+        "total": 0
+      },
+      "type": "dataset",
+      "url": null,
+      "version": null
+    },
+  "CorrelationID": "string"
+}
+
+
+
+{
+      "author": null,
+      "author_email": null,
+      "creator_user_id": "aed89ed8-4f9c-499d-9d08-88e7c1eac613",
+      "extras": [
+        {
+          "key": "begin_datetime",
+          "value": "2012-12-13T00:00:00.000+01:00"
+        },
+        {
+          "key": "categorization",
+          "value": "[\"verkehr-und-technik\"]"
+        },
+        {
+          "key": "lineage_quality",
+          "value": "Daten werden auf Grundlage des Straßenkilometers eingetragen"
+        },
+        {
+          "key": "metadata_identifier",
+          "value": "409f345f-67ae-4b6e-92d3-a5b1a934b02b"
+        },
+        {
+          "key": "metadata_modified",
+          "value": "2016-03-04+01:00"
+        },
+        {
+          "key": "metadata_origin_portal",
+          "value": "http://data.ooe.gv.at/api/ogd/rest/upsir/dataset/409f345f-67ae-4b6e-92d3-a5b1a934b02b"
+        },
+        {
+          "key": "publisher",
+          "value": "Land Oberösterreich"
+        },
+        {
+          "key": "schema_characterset",
+          "value": "utf8"
+        },
+        {
+          "key": "schema_language",
+          "value": "ger"
+        },
+        {
+          "key": "schema_name",
+          "value": "USPIR1.0"
+        },
+        {
+          "key": "update_frequency",
+          "value": "unknown"
+        },
+        {
+          "key": "harvest_object_id",
+          "value": "3d1858f9-d96c-424f-9301-36d2ef443151"
+        },
+        {
+          "key": "harvest_source_id",
+          "value": "ba276b54-e93d-43a6-a65e-39df45319926"
+        },
+        {
+          "key": "harvest_source_title",
+          "value": "UPSIR XML Import Oberösterreich"
+        }
+      ],
+      "groups": [],
+      "id": "409f345f-67ae-4b6e-92d3-a5b1a934b02b",
+      "isopen": true,
+      "license_id": "cc-by-at-30",
+      "license_title": "Creative Commons Namensnennung 3.0 Österreich",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/at/deed.de",
+      "maintainer": "Land Oberösterreich, Abteilung Brücken- und Tunnelbau",
+      "maintainer_email": null,
+      "metadata_created": "2016-03-07T07:47:44.634474",
+      "metadata_modified": "2016-07-10T23:04:41.017707",
+      "name": "verkehrslichtsignalanlagen-vlsa-auf-landesstrassen-innerhalb-magistrat-betreut-durch-magistrat",
+      "notes": "Verkehrslichtsignalanlagen (VLSA) auf dem Landesstraßennetz innerhalb des Gebietes eines Magistrats. VLSA werden vom Magistrat betreut.",
+      "num_resources": 1,
+      "num_tags": 1,
+      "organization": {
+        "approval_status": "approved",
+        "created": "2013-02-27T10:48:14.301817",
+        "description": "",
+        "id": "37d1c90e-5252-4ed8-8a6d-036cf2e89dd1",
+        "image_url": "http://www.data.gv.at/wp-content/uploads/logos-organisationen/land-oberoesterreich.png",
+        "is_organization": true,
+        "name": "land-oberoesterreich",
+        "revision_id": "43fa5e34-14d1-4d70-93f5-9ef1ea6fc12d",
+        "revision_timestamp": "2014-07-24T08:27:04.846501",
+        "state": "active",
+        "title": "Land Oberösterreich",
+        "type": "organization"
+      },
+      "owner_org": "37d1c90e-5252-4ed8-8a6d-036cf2e89dd1",
+      "private": false,
+      "relationships_as_object": [],
+      "relationships_as_subject": [],
+      "resources": [
+        {
+          "cache_last_updated": null,
+          "cache_url": null,
+          "created": "2016-07-11T01:04:41.039823",
+          "description": "",
+          "format": "ZIP",
+          "hash": "",
+          "id": "694866e8-7dd5-4734-838b-ceaf0f7b7939",
+          "last_modified": null,
+          "mimetype": null,
+          "mimetype_inner": null,
+          "name": "Signaltechnik_VLSA_Landstrvw_UWB",
+          "position": 0,
+          "resource_group_id": "383f1e23-2a6f-4623-90f9-f9cfd4a04f6c",
+          "resource_type": null,
+          "revision_id": "809d3d0b-071a-4a19-ba05-91aab9006c3b",
+          "revision_timestamp": "2016-07-10T23:04:41.016333",
+          "size": null,
+          "state": "active",
+          "tracking_summary": {
+            "recent": 0,
+            "total": 0
+          },
+          "url": "http://e-gov.ooe.gv.at/at.gv.ooe.dorisdaten/DORIS_V/SIGNALTECHNIK_VLSA_LANDSTRVW_UWB.zip",
+          "url_type": null,
+          "webstore_last_updated": null,
+          "webstore_url": null
+        }
+      ],
+      "revision_id": "cf5a97dc-3bbd-4e70-ab57-a5216c1c40d0",
+      "revision_timestamp": "2016-03-07T07:47:44.634474",
+      "state": "active",
+      "tags": [
+        {
+          "display_name": "Verkehrswesen",
+          "id": "9a9a51dd-f91d-4067-aeb8-00515f37c94a",
+          "name": "Verkehrswesen",
+          "revision_timestamp": "2016-03-07T07:47:44.634474",
+          "state": "active",
+          "vocabulary_id": null
+        }
+      ],
+      "title": "Verkehrslichtsignalanlagen (VLSA) auf Landesstraßen innerhalb Magistrat betreut durch Magistrat",
+      "tracking_summary": {
+        "recent": 0,
+        "total": 0
+      },
+      "type": "dataset",
+      "url": null,
+      "version": null
+    }
